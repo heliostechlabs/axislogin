@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 
 const clientCertFilePath = 'Dab-csrs/dab-axis.p12'; // Path to your client certificate file
-const clientCertPassword = ''; // Password for your client certificate
+const clientCertPassword = '1234'; // Password for your client certificate
 const url = 'https://sakshamuat.axisbank.co.in/gateway/api/v2/CRMNext/login'; // URL to which you want to make the HTTPS request
 
 // Load client certificate
